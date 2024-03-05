@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <TextView
+        android:text="TextViewImeAutora"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAuthorName"
+        android:textSize="20dp"
+        android:layout_weight="0.65" />
+    <TextView
+        android:textSize="14dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Number of Books"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="0.30" />
+    <TextView
+        android:text="5"
+        android:textSize="14dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNumberOfBooks"
+        android:layout_weight="0.05" />
+</LinearLayout>
